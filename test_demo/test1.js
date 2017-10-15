@@ -9,7 +9,7 @@ describe('test_demo demo', () => {
         });
 
     it('should be 3', () => {
-        expect(3).to.equal(2);
+        expect(3).to.equal(3);
 });
     });
 });
