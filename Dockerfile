@@ -13,4 +13,4 @@ RUN npm install --production
 EXPOSE 8081
 
 # run command during container starting
-CMD ["node", "index"]
+CMD ["npm", "start"]
