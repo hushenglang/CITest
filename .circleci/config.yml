@@ -2,6 +2,11 @@ jobs:
     build:
         docker:
             - image: circleci/node:6.10
+
+        branches:
+          only:
+            - master
+            
         steps:
             - checkout
             - run:
